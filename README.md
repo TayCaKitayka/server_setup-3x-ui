@@ -64,13 +64,12 @@ ssh -p 22663 -i ~/.ssh/id_ed25519 root@IP_ВАШЕГО_СЕРВЕРА
 
 
 Открытые порты по умолчанию
-Порт    Протокол    Описание
-22663   TCP         SSH
-80      TCP         HTTP
-443     TCP         HTTPS
-8443    TCP         HTTPS (альтернативный)
-34821   TCP         3x-ui панель (только setup-3xui.sh)
 
+22663 - TCP - SSH
+80 - TCP - HTTP
+443 - TCP - HTTPS
+8443 - TCP - HTTPS
+34821 - TCP - 3x-ui Panel (only for setup-3xui.sh)
 
 ⚠️ Важно
 Не закрывайте текущую SSH сессию после запуска скрипта,
